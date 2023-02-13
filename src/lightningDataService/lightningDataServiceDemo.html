@@ -1,0 +1,24 @@
+<template>
+
+    <div class="slds-var-m-around_small">
+
+        <lightning-record-form 
+        object-api-name="Account"
+        layout-type="Full"   
+        columns="2"
+        mode="edit" 
+        onerror={handleError}
+        onsuccess={handleSuccess}
+        onsubmit={handleSubmit}>
+
+
+        </lightning-record-form>
+
+        
+
+    </div>
+    
+    <!--Full (you will get the complete fields for the object) / Compact (you will only get the fields in compact view)-->
+    <!--Other options are "readonly", "view"-->
+
+</template>
